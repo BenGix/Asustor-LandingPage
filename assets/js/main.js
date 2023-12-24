@@ -204,7 +204,7 @@ const tl = gsap.timeline({
 })
 
 tl.to('.accordion .text', {
-  height: 100, // Adjust this value
+  height: 500, // Adjust this value
   paddingBottom: 0,
   opacity: 100,
   stagger: .5,

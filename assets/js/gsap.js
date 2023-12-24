@@ -11,7 +11,7 @@ gsap.to(".second-row", {
     scrollTrigger: {
         trigger: ".second-row",
         start: "top bottom",
-        scrub: false,
+        scrub: true,
     },
     x: -500,
 });
