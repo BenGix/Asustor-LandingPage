@@ -192,30 +192,45 @@
 
 gsap.registerPlugin(ScrollTrigger)
 
-const tl = gsap.timeline({
-  scrollTrigger: {
-      trigger: '.accordions',
-      pin: true,
-      start: 'top-=250 top', 
-      end: 'bottom top',
-      scrub: 1,
-      ease: 'linear',
-    }
-})
+// const tl = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: '.accordions',
+//     pin: true,
+//     start: 'top-=250 top',
+//     end: 'bottom top',
+//     scrub: 1,
+//     ease: 'linear',
+//   }
+// })
 
-tl.to('.accordion .text', {
-  height: 500, // Adjust this value
-  paddingBottom: 0,
-  opacity: 100,
-  stagger: .5,
-})
+// tl.to('.accordion .text', {
+//   height: 500, // Adjust this value
+//   paddingBottom: 0,
+//   opacity: 100,
+//   stagger: .5,
+// })
 
-tl.to('.accordion', {
-  marginBottom: -10, // Adjust this value
-  stagger: .5,
-}, '<')
+// tl.to('.accordion', {
+//   marginBottom: -10, // Adjust this value
+//   stagger: .5,
+// }, '<')
 
 window.onload = function () {
   window.scrollTo(0, 0);
   ScrollTrigger.refresh();
 }
+
+// function handleScroll() {
+//   var maxTop =   530;
+//   var scrollPercentage = window.scrollY / document.body.scrollHeight;
+//   var topValue = scrollPercentage * maxTop;
+//   var screenTwo = document.querySelector('.room-screen .screen-two');
+ 
+//   screenTwo.style.top = topValue + "px";
+//  }
+ 
+//  window.addEventListener("scroll", handleScroll);
+ 
+
+
+

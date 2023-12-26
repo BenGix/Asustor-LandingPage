@@ -24,3 +24,13 @@ gsap.to(".third-row", {
     },
     x: 500,
 });
+
+gsap.to(".screen-two", {
+    scrollTrigger: {
+        trigger: ".room-one",
+        start: "bottom bottom-=240px",
+        scrub: true,
+    },
+    top: "0px",
+ });
+ 
