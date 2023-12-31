@@ -3,7 +3,8 @@
 * Updated: Sep 18 2023 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
 * Author: BootstrapMade.com
-* License: https://bootstrapmade.com/licens
+* License: https://bootstrapmade.com/license/
+*/
 /*--------------------------------------------------------------
 # General
 
@@ -1756,8 +1757,8 @@ section {
 }
 
 .section-content {
-
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1250px;
 }
 
@@ -1833,93 +1834,4 @@ section {
     font-weight: 400;
     
   }
-}
-5px;
-  margin-bottom: 0;
-  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, .3);
-
-  &:nth-child(2) {
-    background: linear-gradient(200deg, rgb(242, 136, 133) 13.57%, rgb(233, 79, 102) 98.38%);
-  }
-
-  &:nth-child(3) {
-    background: linear-gradient(200deg, rgb(101, 187, 118) 13.57%, rgb(70, 111, 171) 98.38%);
-  }
-
-  &:nth-child(4) {
-    background: linear-gradient(200deg, #c215d1 13.57%, #9813a1 98.38%);
-  }
-}
-
-.spacer {
-  height: 20vh;
-}
-
-@media (max-width: 480px) {
-  .accordion {
-    padding: 15px 20px 8px;
-  }
-
-  .title {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  [data-aos] {
-    pointer-events: auto !important;
-    opacity: 1 !important;
-    transform: none !important;
-  }
-}
-
-#content {
-
-  margin-top: -50px;
-}
-
-.scroll-bg {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  height: 150vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: end;
-}
-
-.bg-red {
-  z-index: 0;
-  background-color: #320000;
-}
-
- .bg-black{
-  z-index: 2;
-  margin-top: -600px;
-  background-color: #111111 !important;
-  background-image: url('../img/produncts/as3304t-2.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-y: center;
-  background-position-x: 314px;
-  background-size: 290px;
-  height: 100vh;
-}
-
-.image-scroll-red {
-  position: sticky;
-  top: 17rem;
-  margin-bottom: 25px;
-  left: 40px;
-  width: 300px;
-}
-
-@media screen and (max-width: 1400px) {
-  .bg-black {
-    z-index: 2;
-    background-position-x: 122px;
-    height: 100vh;
-  }
-
 }
