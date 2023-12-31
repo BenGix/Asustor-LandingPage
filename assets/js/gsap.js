@@ -14,8 +14,8 @@ function animateScreen(selector, trigger, heightValue) {
     ease: "none",
     scrollTrigger: {
       trigger: trigger,
-      start: "bottom bottom-=21.5%",
-      end: "bottom top+=21.5%",
+      start: "bottom bottom-=22.2%",
+      end: "bottom top+=22.2%",
       scrub: true,
     },
     height: heightValue,
